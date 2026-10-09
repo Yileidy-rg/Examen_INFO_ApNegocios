@@ -30,3 +30,6 @@ II Semestre, año 2026
 | 05. Académico | Diferencias en la participación y el recorrido académico de los estudiantes que podrían relacionarse con resultados desfavorables. | Sí, porque permite estudiar las secuencias de actividades académicas registradas y comparar diferentes recorridos. | Predecir el riesgo de reprobación o abandono académico. | Medio. |
 | 06. Mantenimiento | Reparaciones que requieren múltiples intervenciones y mantienen equipos fuera de servicio durante periodos prolongados. | Sí, porque permite estudiar las actividades de mantenimiento, sus repeticiones y los tiempos de ejecución. | Predecir si una reparación superará el tiempo esperado. | Bajo. |
 
+## 3. Caso seleccionado
+**Número y nombre del caso:** Caso 03 – Solicitud y aprobación de créditos.
+**Archivo de datos:** datos/raw/caso_03_creditos.csv 

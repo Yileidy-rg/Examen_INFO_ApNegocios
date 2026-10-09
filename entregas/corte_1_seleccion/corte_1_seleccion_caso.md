@@ -32,4 +32,5 @@ II Semestre, año 2026
 
 ## 3. Caso seleccionado
 **Número y nombre del caso:** Caso 03 – Solicitud y aprobación de créditos.
+
 **Archivo de datos:** datos/raw/caso_03_creditos.csv 

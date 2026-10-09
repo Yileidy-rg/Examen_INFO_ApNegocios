@@ -8,9 +8,9 @@ EXAMEN PRÁCTICO I
 
 **Estudiantes**
 
-Meylin Iliana López Solera 
+Meylin Iliana López Solera; C4G662 
 
-Yileidy Rivera Granados C4I972
+Yileidy Rivera Granados; C4I972
 
 **Profesor**
 
@@ -36,6 +36,10 @@ II Semestre, año 2026
 **Archivo de datos:** datos/raw/caso_03_creditos.csv 
 
 ## 4. Justificación de la selección
+
+Seleccionamos el caso 03, relacionado con la solicitud y aprobación de créditos, porque consideramos que permite estudiar un proceso que incluye diferentes actividades de revisión, evaluación y toma de decisiones. Nos interesa especialmente identificar las rutas que siguen las solicitudes, determinar si existen actividades repetidas y analizar las posibles diferencias en los tiempos de procesamiento.
+
+Además, este caso permite relacionar la minería de procesos con una posible aplicación futura de Machine Learning, mediante la predicción de aprobación o rechazo de las solicitudes a partir de sus características económicas y laborales. Por estas razones, consideramos que es un caso adecuado para aplicar los conocimientos del curso y comprender cómo el análisis de datos puede apoyar la toma de decisiones en una institución financiera.
 
 ## 5. Comprensión inicial del proceso
 **5.1 ¿Cuál considera que es el inicio del proceso?**
@@ -137,6 +141,7 @@ Las posibles variables predictoras serían:
 Consideramos que este problema corresponde a una tarea de clasificación porque se busca anticipar un resultado que pertenece a dos categorías: aprobación o rechazo de una solicitud de crédito. A diferencia de un problema de regresión, donde se pretende estimar un valor numérico, en este caso el objetivo consiste en determinar a cuál de las dos categorías podría pertenecer cada solicitud. Las variables propuestas contienen información sobre las características económicas y laborales de los solicitantes, las cuales podrían estar relacionadas con las decisiones tomadas por la institución financiera. Mediante Machine Learning se podría investigar si existen patrones en estos datos que permitan anticipar el resultado de una solicitud.
 
 ## 9. Decisión final de la pareja 
+
 
 ## 10. Declaración de uso de IA generativa
 

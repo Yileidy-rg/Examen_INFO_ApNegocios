@@ -93,4 +93,55 @@ Se espera encontrar las siguientes actividades:
 
 Consideramos que algunas solicitudes de crédito podrían presentar retrasos debido a la necesidad de solicitar información adicional o realizar múltiples revisiones. Esto podría provocar que ciertas solicitudes regresen a etapas anteriores, generando reprocesos y aumentando el tiempo necesario para obtener una decisión. También, que las solicitudes de montos elevados o aquellas que requieren evaluaciones especiales podrían tardar más tiempo, debido a que deben pasar por revisiones adicionales. Además, esperamos encontrar diferentes rutas según el resultado de cada solicitud. Algunas podrían seguir una secuencia directa hasta su aprobación o rechazo, mientras que otras podrían necesitar información adicional y reevaluaciones.
 
-# 8. Posible problema futuro de Machine Learning
+## 8. Posible problema futuro de Machine Learning
+
+**Pregunta propuesta:**
+
+¿Es posible predecir si una solicitud de crédito será aprobada o rechazada a partir de las características económicas y laborales del solicitante y del tipo de crédito solicitado?
+
+**Posible variable objetivo**
+
+La posible variable objetivo sería el resultado final de la solicitud de crédito, representado mediante dos categorías:
+
+**Aprobado:** cuando la institución acepta la solicitud de crédito.
+
+**Rechazado:** cuando la institución determina que la solicitud no cumple con los criterios necesarios para su aprobación.
+
+Esta variable permitiría identificar el resultado que se desea predecir a partir de las características de cada solicitud. Las solicitudes que todavía no tengan una decisión final deberán identificarse y tratarse de forma separada.
+
+**Posibles variables predictoras**
+
+Las posibles variables predictoras serían:
+
+**A. Tipo de crédito:** permite distinguir las diferentes categorías de crédito, que podrían tener requisitos de evaluación distintos.
+
+**B. Monto solicitado:** representa la cantidad de dinero que solicita el cliente.
+
+**C. Ingresos:** proporciona información sobre la capacidad económica declarada del solicitante.
+
+**D. Nivel de endeudamiento:** permite conocer qué proporción de los ingresos se encuentra comprometida en otras deudas.
+
+**E. Antigüedad laboral:** permite conocer cuánto tiempo lleva el solicitante en su empleo actual.
+
+**F. Canal de solicitud, si está disponible:** identifica el medio mediante el cual ingresó la solicitud.
+
+**Tipo de problema que podría resultar**
+
+- [x] Clasificación
+- [ ] Regresión
+- [ ] Agrupamiento
+- [ ] Aún no se puede determinar
+
+**Justificación**
+
+Consideramos que este problema corresponde a una tarea de clasificación porque se busca anticipar un resultado que pertenece a dos categorías: aprobación o rechazo de una solicitud de crédito. A diferencia de un problema de regresión, donde se pretende estimar un valor numérico, en este caso el objetivo consiste en determinar a cuál de las dos categorías podría pertenecer cada solicitud. Las variables propuestas contienen información sobre las características económicas y laborales de los solicitantes, las cuales podrían estar relacionadas con las decisiones tomadas por la institución financiera. Mediante Machine Learning se podría investigar si existen patrones en estos datos que permitan anticipar el resultado de una solicitud.
+
+## 9. Decisión final de la pareja 
+
+## 10. Declaración de uso de IA generativa
+
+
+| **Herramienta** | **Para qué se utilizó** | **En qué parte del trabajo** |
+|---|---|---|
+| ChatGPT | Apoyo en la mejora de la redacción académica, comprensión de conceptos técnicos y aclaración de dudas puntuales. | Revisión de la redacción de algunas respuestas, comprensión de los componentes del Event Log y orientación sobre las posibles variables predictoras de Machine Learning. |
+

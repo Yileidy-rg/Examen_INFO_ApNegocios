@@ -142,6 +142,11 @@ Consideramos que este problema corresponde a una tarea de clasificación porque 
 
 ## 9. Decisión final de la pareja 
 
+Después de revisar los seis casos propuestos, decidimos trabajar con el caso 03, solicitud y aprobación de créditos, debido a nuestro interés en comprender las actividades que forman parte de este proceso y los posibles factores relacionados con sus resultados.
+
+Consideramos que, mediante Process Mining, podremos identificar las rutas más frecuentes, analizar los tiempos de procesamiento y detectar posibles reprocesos. Asimismo, nos interesa explorar posteriormente la posibilidad de utilizar Machine Learning para predecir si una solicitud será aprobada o rechazada.
+
+Nuestra decisión se basa en el interés por analizar un proceso financiero que combina actividades operativas con decisiones institucionales y que podría ofrecer oportunidades de mejora a partir de los datos disponibles.
 
 ## 10. Declaración de uso de IA generativa
 

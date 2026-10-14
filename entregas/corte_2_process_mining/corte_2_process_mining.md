@@ -78,6 +78,28 @@ Los eventos sin fecha se conservaron en los datos originales para las comprobaci
 La construcción del Event Log permite representar las actividades realizadas en cada solicitud, identificar las diferentes rutas del proceso y desarrollar los análisis de variantes, tiempos y cumplimiento de las reglas establecidas.
 
 ## 6. Descubrimiento del proceso
+Para analizar el comportamiento real del proceso de solicitud y aprobación de créditos, se aplicó la técnica Directly-Follows Graph (DFG) mediante la biblioteca PM4Py en Python.
 
+Esta técnica permite identificar las relaciones directas entre las actividades registradas en el Event Log, representando gráficamente las secuencias observadas y la frecuencia con la que se ejecutan.
+
+El análisis se realizó utilizando los 7.964 eventos con marcas temporales válidas, correspondientes a 1.200 solicitudes de crédito. A partir de estos registros, se generó un mapa que permite visualizar las principales rutas del proceso y las actividades que intervienen en su ejecución.
+
+Mapa del proceso descubierto
+
+![Mapa del proceso descubierto mediante DFG](img/mapa_proceso.png)
+
+Interpretación
+
+El proceso descubierto presenta una ruta predominante conformada por las siguientes actividades:
+
+Solicitud recibida → Verificación de documentos → Análisis financiero → Aprobación → Formalización → Desembolso.
+
+Esta secuencia representa el recorrido habitual de una solicitud que completa satisfactoriamente las etapas de evaluación, aprobación y otorgamiento del crédito.
+
+Sin embargo, el análisis también permitió identificar rutas alternativas que incluyen actividades como la solicitud y recepción de información adicional, la participación del comité de crédito y la reevaluación de solicitudes. Asimismo, existen recorridos que finalizan con rechazo o desistimiento, lo que evidencia que no todas las solicitudes siguen el mismo procedimiento hasta su finalización.
+
+La existencia de estas rutas alternativas refleja la variabilidad del proceso, que puede estar relacionada con las características de cada solicitud, los requisitos de evaluación y las decisiones tomadas durante el trámite.
+
+El mapa DFG permite reconocer las actividades y transiciones más frecuentes, así como identificar posibles puntos del proceso que requieren un análisis más detallado. No obstante, esta representación por sí sola no permite determinar si una secuencia cumple correctamente todas las políticas establecidas ni identificar las causas de las diferencias observadas.
 
 

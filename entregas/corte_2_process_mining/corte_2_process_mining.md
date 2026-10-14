@@ -60,14 +60,16 @@ Muestra representativa del Event Log
 
 La siguiente tabla presenta la secuencia de eventos correspondiente a la solicitud SOL00001, mostrando las actividades realizadas, sus marcas temporales y los recursos asociados.
 
+
 | Case ID | Actividad | Timestamp | Recurso |
-|...|...|...|...|
+|---|---|---|---|
 | SOL00001 | solicitud recibida | 2026-01-16 08:27:56 | Ejecutivo_03 |
 | SOL00001 | verificacion de documentos | 2026-01-19 08:00:00 | Verificador_01 |
 | SOL00001 | analisis financiero | 2026-01-20 08:00:00 | Analista_02 |
 | SOL00001 | aprobacion | 2026-01-20 15:22:31 | Analista_02 |
-| SOL00001 | formalizacion | 2026-01-26 08:00:00 | Ejecutivo_01
-| SOL00001 | desembolso | 2026-01-27 08:00:00 | tesoreria
+| SOL00001 | formalizacion | 2026-01-26 08:00:00 | Ejecutivo_01 |
+| SOL00001 | desembolso | 2026-01-27 08:00:00 | Tesoreria |
+
 
 El Event Log preparado para el análisis cronológico contiene 7.964 eventos correspondientes a 1.200 solicitudes de crédito. Esta cantidad es inferior a los 7.978 registros originales debido a que se excluyeron 14 eventos que no contaban con una marca temporal válida.
 
